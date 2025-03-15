@@ -7,6 +7,6 @@ jobs:
             - name:  create a folder
               run: mkdir new-folder
             - name: create a file
-              run: touch "hello everyone">new-folder/file.txt
+              run: echo "hello everyone">file.txt
             - name: Read file
               run: file.txt
