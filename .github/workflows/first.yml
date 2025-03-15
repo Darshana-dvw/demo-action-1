@@ -2,7 +2,7 @@ name: My Awesome App
 on: push
 jobs:
     first-job:
-        runs-on: Ubuntu:latest
+        runs-on: ubuntu-latest
         steps: 
             - name:  create a folder
               run: mkdir new-folder
