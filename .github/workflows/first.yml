@@ -4,6 +4,8 @@ jobs:
     first-job:
         runs-on: ubuntu-latest
         steps: 
+            - name: Checkout action
+              uses:  actions/checkout@v4
             - name:  create a folder
               run: mkdir new-folder
             - name: create a file
