@@ -1,0 +1,12 @@
+name: My Awesome App
+on: push
+jobs:
+    first-job:
+        runs-on: Ubuntu:latest
+        steps: 
+            - name:  create a folder
+              run: mkdir new-folder
+            - name: create a file
+              run: touch "hello everyone">new-folder/file.txt
+            - name: Read file
+              run: file.txt
