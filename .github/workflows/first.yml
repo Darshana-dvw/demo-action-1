@@ -9,4 +9,4 @@ jobs:
             - name: create a file
               run: echo "hello everyone">file.txt
             - name: Read file
-              run: file.txt
+              run: cat file.txt
